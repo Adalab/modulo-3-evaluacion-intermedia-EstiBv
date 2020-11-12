@@ -7,14 +7,14 @@ class PokeCard extends React.Component {
       return <li key={i}> {item}</li>;
     });
     return (
-      <div>
+      <div className="container__card">
         <img
           src={this.props.url}
           className="pokemon-img"
           alt={this.props.name}
         />
         <h2> {this.props.name}</h2>
-        <ul> {listTypes} </ul>
+        <ul className="container__card--type"> {listTypes} </ul>
       </div>
     );
   }

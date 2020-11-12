@@ -1,6 +1,26 @@
-.App {
-  width: 100px;
+.container {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  flex-direction: row;
+
+  &__title {
+    justify-content: center;
+    align-items: center;
+  }
+  &__list {
+    justify-content: space-between;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+  }
+  &__card {
+    background-color: #fcf4c9;
+    border-radius: 10px;
+    align-content: space-around;
+    border-color: 1px black;
+  }
+  &__card--type {
+    background-color: white;
+    list-style: none;
+    border-radius: 10px;
+  }
 }
