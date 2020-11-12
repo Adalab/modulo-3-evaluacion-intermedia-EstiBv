@@ -1,17 +1,20 @@
 import React from "react";
 import "./App.scss";
+import PokemonData from "../data/PokemonData.json";
+import PokeList from "./PokeList";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      data: PokemonData,
+    };
   }
-
   render() {
     return (
-      <>
-        <input type="text" className="App" onKeyUp={this.handleText} />
-        <p>{this.state.copyText}</p>
-      </>
+      <div>
+        <PokeList data={this.state.data} />
+      </div>
     );
   }
 }
