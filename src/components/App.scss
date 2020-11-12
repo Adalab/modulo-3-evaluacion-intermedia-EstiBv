@@ -1,24 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  text-align: center;
 
   &__title {
+    display: inline-block;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin: 10px 10px 10px 10px;
   }
   &__list {
+    align-items: flex-end;
     justify-content: space-between;
+    align-content: space-between;
     list-style: none;
-    justify-content: center;
     text-align: center;
+    border-color: 3px black;
   }
   &__card {
+    padding: 10px 10px 10px 10px;
+    border-color: 3px black;
     background-color: #fcf4c9;
     border-radius: 10px;
-    align-content: space-around;
-    border-color: 1px black;
   }
   &__card--type {
+    text-align: center;
     background-color: white;
     list-style: none;
     border-radius: 10px;
