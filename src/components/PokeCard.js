@@ -2,7 +2,6 @@ import React from "react";
 
 class PokeCard extends React.Component {
   render() {
-    console.log(this.props.type);
     const listTypes = this.props.type.map((item, i) => {
       return <li key={i}> {item}</li>;
     });
