@@ -12,7 +12,7 @@ Es un ejercicio propuesto como método de autoevaluación durante el BootCamp de
 
 # Características
 
-- El proyecto está desarrollado con React
+- El proyecto está desarrollado con Reactjs
 - La Información de los pokemon la obtenemos de un array de datos
 
 # Estructura
@@ -23,7 +23,7 @@ Es un ejercicio propuesto como método de autoevaluación durante el BootCamp de
 
 ### Instalación
 
-Intalar [React](https://react.org/) para arrancar.
+Intalar [React](https://reactjs.org/) para arrancar.
 
 Instala las dependencias y devDependencies e iniciar el servicio. Si tienes problemas con la versión mas reciente intala la sugerida.
 
