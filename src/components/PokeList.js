@@ -15,7 +15,7 @@ class PokeList extends React.Component {
         </li>
       );
     });
-    return <ul>{pokeItems}</ul>;
+    return <ul className="container__list--items">{pokeItems}</ul>;
   }
 }
 

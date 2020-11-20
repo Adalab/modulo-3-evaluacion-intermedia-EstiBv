@@ -14,10 +14,12 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="container">
+      <section className="container">
         <h1 className="container__title">Mi lista de Pokemons</h1>
-        <PokeList data={this.state.pokemons}></PokeList>
-      </div>
+        <div className="container__list">
+          <PokeList data={this.state.pokemons}></PokeList>
+        </div>
+      </section>
     );
   }
 }

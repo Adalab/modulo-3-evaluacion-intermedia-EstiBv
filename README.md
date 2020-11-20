@@ -4,9 +4,9 @@
 
 La web consiste en un listado de pokemons, con una tarjeta para cada uno con información relevante como:
 
-- Name
-- Type
-- Image
+- Imagen
+- Nombre
+- Tipo
 
 Es un ejercicio propuesto como método de autoevaluación durante el BootCamp de Adalab.
 
